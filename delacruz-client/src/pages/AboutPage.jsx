@@ -1,6 +1,7 @@
 import Button from '../components/Button';
 import IanImg from '../assets/ian.jpg';
 import JoshImg from '../assets/josh.jpg';
+import JpImg from '../assets/jp.jpg';
 
 const TEAM = [
   {
@@ -14,9 +15,9 @@ const TEAM = [
     img: JoshImg,
   },
   {
-    name: 'Issa Tan',
+    name: 'John Paul DeLa Cruz',
     role: 'Adoption Counselor',
-    img: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&q=80',
+    img: JpImg,
   },
   {
     name: 'Diego Cruz',
