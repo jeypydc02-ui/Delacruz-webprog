@@ -20,9 +20,9 @@ const TEAM = [
     img: JpImg,
   },
   {
-    name: 'Diego Cruz',
+    name: 'Rouge Lavarias',
     role: 'Vet & Animal Welfare',
-    img: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80',
+    img: 'https://scontent.fmnl34-1.fna.fbcdn.net/v/t39.30808-1/459068609_3321249221343541_1827580464387401157_n.jpg?stp=cp6_dst-jpg_s200x200_tt6&_nc_cat=108&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeGG-qWMtVIMzFQ9Xr3i_Y41hKk6oYx3YzKEqTqhjHdjMvXmYmnVucirhWjWaw2OLb_CJ-PniE5X6TwYJCePMGAy&_nc_ohc=kqX0VJ6UeSIQ7kNvwHflLUs&_nc_oc=AdqkzooTjKgepZWl10ixQ5r_kfu-fLwfTq0KindC75B93kqUJ0Z-bUjEyL8JHrI3DlH9jhfebuX9eaUnf0r-GmBw&_nc_zt=24&_nc_ht=scontent.fmnl34-1.fna&_nc_gid=cYnZ26xw09aGp-hk9sQ2Vw&_nc_ss=7a3a8&oh=00_Af17NIPzeQlM6Nr7Ji4bgOQwYGKg5SA0wx5tTSA-j31rog&oe=69DEA2EF',
   },
 ];
 
@@ -106,7 +106,7 @@ const AboutPage = () => {
                 },
                 {
                   title: 'Responsible Matching',
-                  body: 'We don\'t just place animals — we match them. Our counselors assess lifestyle, home environment, and experience level to make sure every adoption has the best chance of being permanent.',
+                  body: "We don't just place animals — we match them. Our counselors assess lifestyle, home environment, and experience level to make sure every adoption has the best chance of being permanent.",
                 },
                 {
                   title: 'Community & Education',
@@ -131,7 +131,7 @@ const AboutPage = () => {
                   <img
                     src={member.img}
                     alt={member.name}
-                    className="h-28 w-full object-cover object-top"
+                    className="h-40 w-full object-contain bg-[#E4DFB5]"
                   />
                   <div className="p-3">
                     <p className="text-sm font-semibold text-[#3d4a2e]">{member.name}</p>
@@ -149,4 +149,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default AboutPage; 
