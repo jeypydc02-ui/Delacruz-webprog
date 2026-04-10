@@ -38,7 +38,7 @@ const HomePage = () => {
             <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#5a6e44]">
               Find Your Forever Friend
             </p>
-            <h1 className="max-w-xl text-4xl font-bold leading-tight text-[#3d4a2e] sm:text-5xl">
+            <h1 className="max-w-xl text-4xl font-bold leading-tight text-[#5a6e44] sm:text-5xl">
               Every pet deserves a place called home.
             </h1>
             <p className="mt-4 max-w-lg text-sm leading-7 text-[#5a6e44] sm:text-base">
@@ -70,7 +70,7 @@ const HomePage = () => {
           <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#5a6e44]">
             Our Impact
           </p>
-          <h2 className="mt-2 text-2xl font-semibold text-[#3d4a2e]">By the numbers</h2>
+          <h2 className="mt-2 text-2xl font-semibold text-[#5a6e44]">By the numbers</h2>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
@@ -95,7 +95,7 @@ const HomePage = () => {
           <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#5a6e44]">
             Available Now
           </p>
-          <h2 className="mt-2 text-2xl font-semibold text-[#3d4a2e]">Pets looking for homes</h2>
+          <h2 className="mt-2 text-2xl font-semibold text-[#5a6e44]">Pets looking for homes</h2>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
           {PETS.map((pet) => (
@@ -129,7 +129,7 @@ const HomePage = () => {
           <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#5a6e44]">
             The Process
           </p>
-          <h2 className="mt-2 text-2xl font-semibold text-[#3d4a2e]">Adopting is simple</h2>
+          <h2 className="mt-2 text-2xl font-semibold text-[#5a6e44]">Adopting is simple</h2>
         </div>
         <div className="grid gap-4 sm:grid-cols-3">
           {[

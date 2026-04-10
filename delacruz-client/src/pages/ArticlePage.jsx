@@ -48,8 +48,8 @@ const ArticlePage = () => {
         <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#5a6e44]">
           Resources & Stories
         </p>
-        <h1 className="max-w-xl text-3xl font-bold leading-tight text-[#3d4a2e] sm:text-4xl">
-          Guides, stories, and everything you need to be a great pet parent.
+        <h1 className="max-w-xl text-3xl font-bold leading-tight text-[#5a6e44] sm:text-4xl">
+         Guides, stories, and everything you need to be a great pet parent.
         </h1>
         <p className="mt-4 max-w-lg text-sm leading-7 text-[#5a6e44] sm:text-base">
           From first-time adopter tips to deep dives on animal welfare policy, our blog is
@@ -66,7 +66,7 @@ const ArticlePage = () => {
           <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#5a6e44]">
             Latest Articles
           </p>
-          <h2 className="mt-2 text-2xl font-semibold text-[#3d4a2e]">From the HomeFound blog</h2>
+          <h2 className="mt-2 text-2xl font-semibold text-[#5a6e44]">From the HomeFound blog</h2>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           {ARTICLES.map((article) => (

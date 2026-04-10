@@ -44,7 +44,7 @@ const AboutPage = () => {
             <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#5a6e44]">
               Our Story
             </p>
-            <h1 className="max-w-xl text-3xl font-bold leading-tight text-[#3d4a2e] sm:text-4xl">
+            <h1 className="max-w-xl text-3xl font-bold leading-tight text-[#5a6e44] sm:text-4xl">
               Born from love for animals, built for community.
             </h1>
             <p className="mt-4 max-w-lg text-sm leading-7 text-[#5a6e44] sm:text-base">
@@ -71,7 +71,7 @@ const AboutPage = () => {
           <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#5a6e44]">
             Profile Overview
           </p>
-          <h2 className="mt-2 text-2xl font-semibold text-[#3d4a2e]">HomeFound at a glance</h2>
+          <h2 className="mt-2 text-2xl font-semibold text-[#5a6e44]">HomeFound at a glance</h2>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
@@ -97,7 +97,7 @@ const AboutPage = () => {
             <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#5a6e44]">
               What We Stand For
             </p>
-            <h2 className="mt-2 text-2xl font-semibold text-[#3d4a2e]">Our three pillars</h2>
+            <h2 className="mt-2 text-2xl font-semibold text-[#5a6e44]">Our three pillars</h2>
             <div className="mt-6 space-y-4">
               {[
                 {
