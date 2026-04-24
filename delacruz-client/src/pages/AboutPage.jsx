@@ -1,28 +1,28 @@
 import Button from '../components/Button';
-import IanImg from '../assets/ian.jpg';
-import JoshImg from '../assets/josh.jpg';
-import JpImg from '../assets/jp.jpg';
-
+import IanImg from '../assets/Deku.jpg';
+import JoshImg from '../assets/Yami.jpg';
+import JpImg from '../assets/Pain.jpg';
+import Levi from '../assets/levi.jpg';
 const TEAM = [
   {
-    name: 'Ian Kenneth Sianghio',
+    name: 'Izuku Midoriya',
     role: 'Founder & Director',
     img: IanImg,
   },
   {
-    name: 'Joshua Marzan',
+    name: 'Yami Sukehiro',
     role: 'Rescue Coordinator',
     img: JoshImg,
   },
   {
-    name: 'John Paul DeLa Cruz',
+    name: 'Pain',
     role: 'Adoption Counselor',
     img: JpImg,
   },
   {
-    name: 'Rouge Lavarias',
+    name: 'Levi Ackerman',
     role: 'Vet & Animal Welfare',
-    img: 'https://scontent.fmnl34-1.fna.fbcdn.net/v/t39.30808-1/459068609_3321249221343541_1827580464387401157_n.jpg?stp=cp6_dst-jpg_s200x200_tt6&_nc_cat=108&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeGG-qWMtVIMzFQ9Xr3i_Y41hKk6oYx3YzKEqTqhjHdjMvXmYmnVucirhWjWaw2OLb_CJ-PniE5X6TwYJCePMGAy&_nc_ohc=kqX0VJ6UeSIQ7kNvwHflLUs&_nc_oc=AdqkzooTjKgepZWl10ixQ5r_kfu-fLwfTq0KindC75B93kqUJ0Z-bUjEyL8JHrI3DlH9jhfebuX9eaUnf0r-GmBw&_nc_zt=24&_nc_ht=scontent.fmnl34-1.fna&_nc_gid=cYnZ26xw09aGp-hk9sQ2Vw&_nc_ss=7a3a8&oh=00_Af17NIPzeQlM6Nr7Ji4bgOQwYGKg5SA0wx5tTSA-j31rog&oe=69DEA2EF',
+    img: Levi,
   },
 ];
 

@@ -9,10 +9,12 @@ const ArticleList = ({ articles }) => {
           key={article.name}
           className="flex flex-col rounded-3xl border-2 border-[#3d4a2e] bg-[#E4DFB5] overflow-hidden"
         >
-          {/* Placeholder thumbnail */}
-          <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem_1.25rem_0_0] bg-[#C3CC9B]">
-            <div className="h-12 w-12 border-2 border-[#3d4a2e] bg-[#9AB17A] rounded-xl" />
-          </div>
+          {/* Article thumbnail */}
+          <img
+            src={article.image}
+            alt={article.title}
+            className="w-full aspect-4/3 object-cover rounded-[1.25rem_1.25rem_0_0]"
+          />
 
           <div className="flex flex-1 flex-col p-4">
             <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[#5a6e44]">
