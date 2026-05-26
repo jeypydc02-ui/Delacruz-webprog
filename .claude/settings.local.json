@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\marza\\\\OneDrive\\\\Desktop\\\\Delacruz-webprog-lab-act3\\\\delacruz-client\\\\src\\\\layouts\")",
+      "Bash(Out-Null)",
+      "Bash(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\marza\\\\OneDrive\\\\Desktop\\\\Delacruz-webprog-lab-act3\\\\delacruz-client\\\\src\\\\pages\\\\AuthPages\")",
+      "Bash(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\marza\\\\OneDrive\\\\Desktop\\\\Delacruz-webprog-lab-act3\\\\delacruz-client\\\\src\\\\pages\\\\LandingPages\")",
+      "Bash(Write-Host \"Directories created\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\marza\\\\OneDrive\\\\Desktop\\\\Delacruz-webprog-lab-act3\\\\delacruz-client\\\\src\\\\layouts\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\marza\\\\OneDrive\\\\Desktop\\\\Delacruz-webprog-lab-act3\\\\delacruz-client\\\\src\\\\pages\\\\AuthPages\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\marza\\\\OneDrive\\\\Desktop\\\\Delacruz-webprog-lab-act3\\\\delacruz-client\\\\src\\\\pages\\\\LandingPages\")"
+    ]
+  }
+}
